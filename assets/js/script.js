@@ -157,3 +157,28 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+<script src=
+"https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+    function sendemail(){
+
+        Email.send({
+            SecureToken:" ",
+
+
+            /*Host : "smtp.gmail.com",
+            Username : "email",
+            Password : "password",*/
+            To : 'prathamesh9346@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "This is the subject",
+            Body : "Name :"+document.getElementById("name").value + "<br> Email :" + document.getElementById("email").value +"<br> Message:" + document.getElementById("message").value
+        }).then(
+          message => alert("Message sent successfully!")
+        );
+    }
+</script>
+
