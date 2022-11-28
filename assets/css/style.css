@@ -36,9 +36,9 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 4%, 23%);
-  --eerie-black-2: hsl(240, 10%, 87%);
-  --smoky-black:linear-gradient(to right, #141e30, #243b55);
-  --white-1: hsl(0, 15%, 75%);
+  --eerie-black-2: hsl(183deg 11% 48% / 98%);
+  --smoky-black:linear-gradient(to right, #15133C, #15133C);
+  --white-1: hsl(0deg 22% 77%);
   --white-2: hsl(240, 13%, 31%);
   --orange-yellow-crayola: hsl(169deg 49% 46%);
   --vegas-gold: hsl(181, 83%, 30%);
@@ -73,6 +73,7 @@
   --transition-2: 0.5s ease-in-out;
 
 }
+
 
 
 *, *::before, *::after {
@@ -114,6 +115,9 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
+.sidebar{
+  background: #2B4865;
+}
 
 .sidebar,
 article {
