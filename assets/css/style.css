@@ -10,7 +10,7 @@
     to bottom right, 
     hsla(240, 30%, 83%, 0.251) 0%, 
     hsla(240, 4%, 44%, 0) 100%
-  ), hsl(240, 12%, 35%);
+  ),hsl(240deg 23% 1%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(222, 80%, 51%) 0%, 
@@ -36,14 +36,14 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 4%, 23%);
-  --eerie-black-2: hsl(183deg 11% 48% / 98%);
-  --smoky-black:linear-gradient(to right, #15133C, #15133C);
-  --white-1: hsl(0deg 22% 77%);
-  --white-2: hsl(240, 13%, 31%);
+  --eerie-black-2:hsl(240, 2%, 12%);
+  --smoky-black:linear-gradient(to right, #000000, #000000);
+  --white-1: rgb(226, 218, 218);
+  --white-2: hsl(240, 6%, 75%);
   --orange-yellow-crayola: hsl(169deg 49% 46%);
   --vegas-gold: hsl(181, 83%, 30%);
-  --light-gray: hsl(0, 0%, 15%);
-  --light-gray-70: hsla(237, 14%, 27%, 0.852);
+  --light-gray: hsl(0, 4%, 85%);
+  --light-gray-70: hsla(240, 2%, 71%, 0.852);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   --ff-poppins: 'Poppins', sans-serif;
@@ -270,8 +270,8 @@ main {
   overflow: hidden;
   transition: var(--transition-2);
    padding: 70px 0;
-  border: 3px solid green;
-  background-color: (hsla(175, 61%, 47%, 0.352));
+  border: 3px solid ;
+  background-color: (hsla(173, 14%, 12%, 0.769));
 }
 
 .sidebar.active { max-height: 405px; }
